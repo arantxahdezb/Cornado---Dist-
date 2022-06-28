@@ -1,0 +1,7 @@
+<svg id="shopping-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <circle id="Elipse_4" data-name="Elipse 4" cx="15" cy="15" r="15" fill="#ac1a2f"/>
+  <g id="shopping_cart-black-18dp" transform="translate(5 5)">
+    <path id="Trazado_354" data-name="Trazado 354" d="M0,0H20V20H0Z" fill="none"/>
+    <path id="Trazado_355" data-name="Trazado 355" d="M12.641,10.8a1.593,1.593,0,0,0,1.4-.824l2.864-5.192a.8.8,0,0,0-.7-1.184H4.368L3.616,2H1V3.6H2.6L5.48,9.672,4.4,11.624A1.6,1.6,0,0,0,5.8,14h9.6V12.4H5.8l.88-1.6ZM5.128,5.2h9.721l-2.208,4H7.025ZM5.8,14.8a1.6,1.6,0,1,0,1.6,1.6A1.6,1.6,0,0,0,5.8,14.8Zm8,0a1.6,1.6,0,1,0,1.6,1.6A1.6,1.6,0,0,0,13.8,14.8Z" fill="#fefefe"/>
+  </g>
+</svg>

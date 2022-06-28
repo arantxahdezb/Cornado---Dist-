@@ -1,0 +1,11 @@
+/* Sample font-face for x webfont https://coronado-com-mx-staging-assets.s3.amazonaws.com/s3fs-public/theme/fonts/ */
+
+@font-face {
+	font-family: 'ACalling';
+	src: url('https://coronado-com-mx-staging-assets.s3.amazonaws.com/s3fs-public/theme/fonts/acalling/ACalling.eot');
+	src: url('https://coronado-com-mx-staging-assets.s3.amazonaws.com/s3fs-public/theme/fontsacalling/ACalling.ttf') format('truetype'), 
+       url('https://coronado-com-mx-staging-assets.s3.amazonaws.com/s3fs-public/theme/fontsacalling/ACalling.svg') format('svg'),
+       url('https://coronado-com-mx-staging-assets.s3.amazonaws.com/s3fs-public/theme/fontsacalling/ACalling.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="preload" href="css/styles.min.css" as="style">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Coronado ® - Home</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+    <script src="js/scripts.min.js" async defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <!--  Google Tag Manager -->
+    <!--  End Google Tag Manager -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 header--navegacion">
+            <nav class="navbar-expand-lg navbar"><a id="logo-brand" href="/">
+                <picture> 
+                  <source srcset="img/generals/logo_Coronado_png.webp" type="image/webp"><img src="img/generals/logo_Coronado_png.png" alt="Home - Nav">
+                </picture></a>
+              <div class="btn" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                  <defs>
+                    <style>
+                      .cls-b {
+                          fill: #ac1a2f;
+                      }
+                    </style>
+                  </defs>
+                  <rect class="cls-b" width="80" height="10"></rect>
+                  <rect class="cls-b" y="20" width="80" height="10"></rect>
+                  <rect class="cls-b" y="40" width="80" height="10"></rect>
+                </svg>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div id="primary-menu">
+                <ul class="nav navbar-nav">
+                  <li id="li-s1" class="nav-item active"> <a href="/recetas">recipes</a></li>
+                  <li id="li-s2" class="nav-item active"> <a href="/productos">products</a></li>
+                  <li id="li-s3" class="nav-item active"> <a href="/quienes-somos">about us</a></li>
+                </ul>
+              </div>
+                <ul>
+                  <li><a id="li-search" data-toggle="modal" data-target="#search">
+                      <picture> 
+                        <source srcset="img/generals/search-icon.svg" type="image/webp"><img id="img-search" src="img/generals/search-icon.svg" alt="Home - Search">
+                      </picture></a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="home" id="fullpage">
+      <div class="banner-top">
+        <div class="row justify-content-end align-items-center">
+        </div>
+        <div class="row justify-content-end align-items-center">
+          <div class="col-6">
+            <div id="descubreBtn">
+              <picture class="btn terciary" data-toggle="modal" data-target="#modal"> 
+                <source srcset="img/home/recepies_get_Coronado.webp" type="image/webp"><img src="img/home/recepies_get_Coronado.png" alt="Home - Nav">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden-img"><img src="img/home/home-img.png" alt=""></div>
+      <section class="section hero">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/home/Slider_perfect_recepies_Coronado.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/home/home-img.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/home/Slider_perfect_recepies_Coronado.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="container text-center">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-4">
+              <div id="socialNav">
+                <ul>
+                  <li id="li-f">
+                    <picture> <img id="facebook" src="img/generals/facebook.svg" alt="Facebook - Coronado ®"></picture>
+                  </li>
+                  <li id="li-y">
+                    <picture> <img id="youtube" src="img/generals/youtube.svg" alt="Youtube - Coronado ®"></picture>
+                  </li>
+                  <li id="li-i">
+                    <picture> <img id="instagram" src="img/generals/instagram.svg" alt="Instagram - Coronado ®"></picture>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4"><a href="/">Privacy Policy</a></div>
+            <div class="col-md-4 text-right">
+              <p>All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="close" data-dismiss="modal" aria-label="Close"><img class="img-fluid" id="closebtn" src="../../img/modal/close.svg" alt=""></div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-12">
+                  <div class="swiper-container" id="slider-receta">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <h2 class="tituloH1">Let’s start</h2>
+                        <p class="h5">Answer the questions to discover your perfect recipe.</p>
+                        <div class="row justify-content-center">
+                          <div class="col-5">
+                            <div class="icon">
+                              <picture>
+                                <img src="img/recetas/Easy.svg" alt="Recetas Coronado®">
+                              </picture>
+                              <p>Difficulty</p>
+                            </div>
+                          </div>
+                          <div class="col-5">
+                            <div class="icon">
+                              <picture>
+                              <img src="img/recetas/cuchara.svg" alt="Recetas Coronado®">
+                              </picture>
+                              <p>Occasion</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="breadcrumb">
+                          <li class="active">1</li>
+                          <li>2</li>
+                          <li>3</li>
+                          <li>4 </li>
+                        </ul>
+                        <p class="h5">¿Cocinarás para una ocasión especial?</p>
+                        <p class="h4">Elige una ocasión:</p>
+                        <div class="row justify-content-center">
+                          <div class="col-9 text-center">
+                            <div class="input">
+                              <div class="select-style">
+                                <select id="recipe-ocasion">
+                                  <option id="o0" value="En Familia">En Familia:</option>
+                                </select>
+                                <label class="input__label" for="recipe-inquire">En Familia*</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="breadcrumb">
+                          <li>1</li>
+                          <li class="active">2</li>
+                          <li>3</li>
+                          <li>4 </li>
+                        </ul>
+                        <p class="h5">¿Cuál es tu producto favorito CORONADO<sup>®</sup>?</p>
+                        <p class="h4">Elige una ocasión;</p>
+                        <div class="row justify-content-center">
+                          <div class="col-9 text-center">
+                            <div class="input">
+                              <div class="select-style">
+                                <select id="recipe-product">
+                                  <option id="o0" value="Coronado® Quemada">Coronado® Quemada:</option>
+                                </select>
+                                <label class="input__label" for="recipe-inquire">Coronado® Quemada*</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="breadcrumb">
+                          <li>1</li>
+                          <li>2</li>
+                          <li class="active">3</li>
+                          <li>4 </li>
+                        </ul>
+                        <p class="h5">¿Cuánto tiempo quieres dedicarle a la cocina?</p>
+                        <p class="h4">Tiempo de preparación</p>
+                        <div class="row justify-content-center">
+                          <div class="col-9 text-center">
+                            <div class="input">
+                              <div class="radio-btn">
+                                <label for="one">10 a 30 minutos</label>
+                                <input type="radio" id="one" name="chooseone" value="10-30">
+                              </div>
+                            </div>
+                            <div class="input">
+                              <div class="radio-btn">
+                                <label for="two">30 min a 1 hora</label>
+                                <input type="radio" id="two" name="chooseone" value="30-60">
+                              </div>
+                            </div>
+                            <div class="input">
+                              <div class="radio-btn">
+                                <label for="three">1:30 a 3 horas</label>
+                                <input type="radio" id="three" name="chooseone" value="90-180">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="breadcrumb">
+                          <li>1</li>
+                          <li>2</li>
+                          <li>3</li>
+                          <li class="active">4 </li>
+                        </ul>
+                        <p class="h5">¿Cuál es tu nivel de habilidad en la cocina?</p>
+                        <p class="h4">Da click en nivel</p>
+                        <div class="row justify-content-center text-center">
+                          <div class="col-3">
+                            <div class="icon">
+                              <picture>
+                                <source srcset="../../img/modal/easy-level-icon@2x.webp" type="image/webp"><img src="../../img/modal/easy-level-icon@2x.png" alt="Principiante">
+                              </picture>
+                              <p>Principiante</p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="icon">
+                              <picture>
+                                <source srcset="../../img/modal/medium-level-icon@2x.webp" type="image/webp"><img src="../../img/modal/medium-level-icon@2x.png" alt="Casual">
+                              </picture>
+                              <p>Casual</p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="icon">
+                              <picture>
+                                <source srcset="../../img/modal/chef-level-icon@2x.webp" type="image/webp"><img src="../../img/modal/chef-level-icon@2x.png" alt="Chef">
+                              </picture>
+                              <p>Chef</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nav-quiz">
+                    <div class="btn secondary" id="next-button">
+                      <p class="h3">Next</p>
+                    </div>
+                    <div class="d-none btn secondary" id="last-button">
+                      <p class="h3">See recepies</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="splashVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="close" data-dismiss="modal" aria-label="Close"><img class="img-fluid" id="closeBtnV" src="../../img/modal/close.svg" alt=""></div>
+          </div>
+          <div class="modal-body"></div>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" id="video" src allowscriptaccess="always" allow="autoplay"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="search" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="close" data-dismiss="modal" aria-label="Close"><img class="img-fluid" id="closeBtnV" src="../../img/modal/close.svg" alt=""></div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-9">
+                  <h1 class="tituloH1a">Search</h1>
+                  <p>Enter a word to search for a delicious recipe:</p>
+                </div>
+              </div>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                  <div class="input">
+                    <input class="input__field" id="job-contact" type="search" name="search" placeholder="Coronado® Recipe Finder" onblur="this.placeholder = 'Coronado® Recipe Finder'" onfocus="this.placeholder=''">
+                    <label class="input__label" for="search"><span class="input__label-content">Coronado® Recipe Finder</span></label>
+                    <button id="btn_search"><img class="img-fluid" id="searchBtn" src="../../img/generals/search-icon.svg" alt=""></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="close" data-dismiss="modal" aria-label="Close"><img class="img-fluid" id="closebtn" src="../../img/modal/close.svg" alt=""></div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-12">
+                  <div class="swiper-container" id="slider-receta">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <h2 class="tituloH1">Empecemos</h2>
+                        <p class="h5">Con tres simples preguntas te haremos recomendaciones.</p>
+                        <div class="row justify-content-center">
+                          <div class="col-3">
+                            <div class="icon">
+                              <picture>
+                                <source srcset="../../img/recetas/temporalidad-icon-recetas@2x.webp" type="image/webp"><img src="../../img/recetas/temporalidad-icon-recetas@2x.png" alt="Recetas Coronado®">
+                              </picture>
+                              <p>Ocasión</p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="icon">
+                              <picture>
+                                <source srcset="../../img/recetas/product-icon-recetas@2x.webp" type="image/webp"><img src="../../img/recetas/product-icon-recetas@2x.png" alt="Recetas Coronado®">
+                              </picture>
+                              <p>Producto</p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="icon">
+                              <picture>
+                                <source srcset="../../img/recetas/time-icon-recetas@2x.webp" type="image/webp"><img src="../../img/recetas/time-icon-recetas@2x.png" alt="Recetas Coronado®">
+                              </picture>
+                              <p>Tiempo</p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="icon">
+                              <picture>
+                                <source srcset="../../img/recetas/habilidad-icon-recetas@2x.webp" type="image/webp"><img src="../../img/recetas/habilidad-icon-recetas@2x.png" alt="Recetas Coronado®">
+                              </picture>
+                              <p>Habilidad</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="breadcrumb">
+                          <li class="active">1</li>
+                          <li>2</li>
+                          <li>3</li>
+                          <li>4 </li>
+                        </ul>
+                        <p class="h5">¿Cocinarás para una ocasión especial?</p>
+                        <p class="h4">Elige una ocasión:</p>
+                        <div class="row justify-content-center">
+                          <div class="col-9 text-center">
+                            <div class="input">
+                              <div class="select-style">
+                                <select id="recipe-ocasion">
+                                  <option id="o0" value="En Familia">En Familia:</option>
+                                </select>
+                                <label class="input__label" for="recipe-inquire">En Familia*</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="breadcrumb">
+                          <li>1</li>
+                          <li class="active">2</li>
+                          <li>3</li>
+                          <li>4 </li>
+                        </ul>
+                        <p class="h5">¿Cuál es tu producto favorito CORONADO<sup>®</sup>?</p>
+                        <p class="h4">Elige una ocasión;</p>
+                        <div class="row justify-content-center">
+                          <div class="col-9 text-center">
+                            <div class="input">
+                              <div class="select-style">
+                                <select id="recipe-product">
+                                  <option id="o0" value="Coronado® Quemada">Coronado® Quemada:</option>
+                                </select>
+                                <label class="input__label" for="recipe-inquire">Coronado® Quemada*</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="breadcrumb">
+                          <li>1</li>
+                          <li>2</li>
+                          <li class="active">3</li>
+                          <li>4 </li>
+                        </ul>
+                        <p class="h5">¿Cuánto tiempo quieres dedicarle a la cocina?</p>
+                        <p class="h4">Tiempo de preparación</p>
+                        <div class="row justify-content-center">
+                          <div class="col-9 text-center">
+                            <div class="input">
+                              <div class="radio-btn">
+                                <label for="one">10 a 30 minutos</label>
+                                <input type="radio" id="one" name="chooseone" value="10-30">
+                              </div>
+                            </div>
+                            <div class="input">
+                              <div class="radio-btn">
+                                <label for="two">30 min a 1 hora</label>
+                                <input type="radio" id="two" name="chooseone" value="30-60">
+                              </div>
+                            </div>
+                            <div class="input">
+                              <div class="radio-btn">
+                                <label for="three">1:30 a 3 horas</label>
+                                <input type="radio" id="three" name="chooseone" value="90-180">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <ul class="breadcrumb">
+                          <li>1</li>
+                          <li>2</li>
+                          <li>3</li>
+                          <li class="active">4 </li>
+                        </ul>
+                        <p class="h5">¿Cuál es tu nivel de habilidad en la cocina?</p>
+                        <p class="h4">Da click en nivel</p>
+                        <div class="row justify-content-center text-center">
+                          <div class="col-3">
+                            <div class="icon">
+                              <picture>
+                                <source srcset="../../img/modal/easy-level-icon@2x.webp" type="image/webp"><img src="../../img/modal/easy-level-icon@2x.png" alt="Principiante">
+                              </picture>
+                              <p>Principiante</p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="icon">
+                              <picture>
+                                <source srcset="../../img/modal/medium-level-icon@2x.webp" type="image/webp"><img src="../../img/modal/medium-level-icon@2x.png" alt="Casual">
+                              </picture>
+                              <p>Casual</p>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="icon">
+                              <picture>
+                                <source srcset="../../img/modal/chef-level-icon@2x.webp" type="image/webp"><img src="../../img/modal/chef-level-icon@2x.png" alt="Chef">
+                              </picture>
+                              <p>Chef</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nav-quiz">
+                    <div class="btn secondary" id="next-button">
+                      <p class="h3">Siguiente</p>
+                    </div>
+                    <div class="d-none btn secondary" id="last-button">
+                      <p class="h3">Ver Recetas</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="splashVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="close" data-dismiss="modal" aria-label="Close"><img class="img-fluid" id="closeBtnV" src="../../img/modal/close.svg" alt=""></div>
+          </div>
+          <div class="modal-body"></div>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" id="video" src allowscriptaccess="always" allow="autoplay"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="search" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="close" data-dismiss="modal" aria-label="Close"><img class="img-fluid" id="closeBtnV" src="../../img/modal/close.svg" alt=""></div>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-9">
+                  <h1 class="tituloH1a">Buscador</h1>
+                  <p>Ingresa una palabra para buscar una deliciosa receta:</p>
+                </div>
+              </div>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                  <div class="input">
+                    <input class="input__field" id="job-contact" type="search" name="search" placeholder="Buscador de Recetas Coronado®" onblur="this.placeholder = 'Buscador de Recetas Coronado®'" onfocus="this.placeholder=''">
+                    <label class="input__label" for="search"><span class="input__label-content">Buscador de Recetas Coronado®</span></label>
+                    <button id="btn_search"><img class="img-fluid" id="searchBtn" src="../../img/generals/search-icon.svg" alt=""></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'></script>
+  <script src='https://jacoblett.github.io/bootstrap4-latest/bootstrap-4-latest.min.js'></script>
+  </body>
+</html>
